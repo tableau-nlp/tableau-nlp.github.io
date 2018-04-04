@@ -16,16 +16,15 @@
 </head>	
 
 <body onload=initializeViz();>
-<h1>Major League Soccer Standings</h1>
+<h1>Income Statement</h1>
 Say the following commands:<br /> 
-<i>"Select East"</i> 
-<i>"Select West"</i> 
+<i>"Highlights"</i> 
+<i>"Favourable Metrics"</i> 
+<i>"Unfavourable Metrics"</i> 
 
-<i>"Filter East"</i> 
-<i>"Clear Filter"</i> 
 <i>"Export Image"</i> 
 <i>"Export PDF"</i> 
-<i>"Reset"</i>
+
 <br>
 <br>
 <center><div id='tableauViz'></div></center>
@@ -57,8 +56,7 @@ var viz, workbook, activeSheet, Worksheet, worksheet;
 function initializeViz(){
 
 var placeholderDiv = document.getElementById("tableauViz");
-
-var url = "https://public.tableau.com/views/MajorLeagueSoccerStandings/Sportsviz?:embed=y&:display_count=yes";
+var url = "https://public.tableau.com/views/IncomeStatement_11/Financemetrics?:embed=y&:display_count=yes&publish=yes";
 var options = {
    width: "1004",   
    height: "669",
