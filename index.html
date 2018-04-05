@@ -20,7 +20,7 @@
 Say the following commands:<br /> 
 <i>"tell me the highlights"</i>
 <i>"areas performing well"</i>
-<i>"Where do I need to focus"</i> 
+<i>"What needs focus"</i> 
 
 <i>"Export Image"</i> 
 <i>"Export PDF"</i> 
@@ -33,9 +33,9 @@ Say the following commands:<br />
 if (annyang) {
   // These are the voice commands in quotes followed by the function
   var commands = {
-    'tell me the highlights' : function() {responsiveVoice.speak('Net sales is Ten thousand eight hundred and thirteen dollars, Gross Profit is four thousand six hundred and forty nine dollars, Operating income is three thousand one hundred and forty seven dollars and Net Profit is 2 thousand 7 hundred and sixty 2 dollars', "UK English Male");},
+    'tell me the highlights' : function() {responsiveVoice.speak('Net sales is 10 thousand 8 hundred and 13 dollars, Gross Profit is four thousand 6 hundred and forty 9 dollars, Operating income is 3 thousand 1 hundred and forty 7 dollars and Net Profit is 2 thousand 7 hundred and sixty 2 dollars', "UK English Male");},
 	'areas performing well' : function() {responsiveVoice.speak('Gross sales is the favorable metric', "UK English Male");},
-	'Where do I need to focus' : function() {responsiveVoice.speak('Cost of goods sold,  Operating expenses and taxes are the metrics that require focus', "UK English Male");},
+	'What needs focus' : function() {responsiveVoice.speak('Cost of goods sold,  Operating expenses and Taxes are the metrics that require focus', "UK English Male");},
  	'Which metrices are on budget': function() {responsiveVoice.speak('selecting West', "UK English Male"); },
 	'Clear Selection': function() { clearSelection; responsiveVoice.speak('Clearing Selection', "UK English Male"); },
 	'Filter East': function() { filterEast(); responsiveVoice.speak('Filtering East', "UK English Male"); },
