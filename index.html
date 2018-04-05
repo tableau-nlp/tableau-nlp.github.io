@@ -19,7 +19,7 @@
 <h1>Income Statement</h1>
 Say the following commands:<br /> 
 <i>"tell me the highlights"</i>
-<i>"tell me"</i>
+<i>"tell me the metrics"</i>
 <i>"tell me the unfavorable metrics"</i> 
 
 <i>"Export Image"</i> 
@@ -34,7 +34,7 @@ if (annyang) {
   // These are the voice commands in quotes followed by the function
   var commands = {
     'tell me the highlights' : function() {responsiveVoice.speak('Net sales is Ten thousand eight hundred thirteen dollars', "UK English Male");},
-	'tell me' : function() {responsiveVoice.speak('Gross sales is favorable metric', "UK English Male");},
+	'tell me the metrics' : function() {responsiveVoice.speak('Gross sales is favorable metric', "UK English Male");},
 	 'tell me the unfavorable metrics' : function() {responsiveVoice.speak('Cost of goods sold  operating expenses  taxes', "UK English Male");},
   	'Select East': function() { selectEast(); responsiveVoice.speak('selecting East', "UK English Male"); },
  	'Select West': function() { selectWest(); responsiveVoice.speak('selecting West', "UK English Male"); },
